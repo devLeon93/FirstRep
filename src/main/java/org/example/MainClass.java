@@ -18,6 +18,7 @@ public class MainClass {
         System.out.println(" Result from getDevelopersLastname() -  " + developersLastname);
         System.out.println(" Result from getDevelopersLastname() -  " + developersFirstname);
         System.out.println(" Result from getDevelopersLastname() -  " + developersFirstname);
+        System.out.println(" Result from getDevelopersLastname() -  " + developersFirstname);
     }
 
     public static List<Developer> getDevelopersLastname(List<Developer> devList){
