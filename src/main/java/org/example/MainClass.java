@@ -2,9 +2,8 @@ package org.example;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
-public class Main {
+public class MainClass {
     public static void main(String[] args) {
 
         Developer dev = new Developer("Leonid","Barsucovschi",14000L);
@@ -21,6 +20,13 @@ public class Main {
     public static List<Developer> getDevelopersLastname(List<Developer> devList){
         for (Developer list : devList){
             System.out.println(list.getLastname());
+        }
+        return devList;
+    }
+
+    public static List<Developer> getDevelopersFirstName(List<Developer> devList){
+        for (Developer list : devList){
+            System.out.println(list.getFirstname());
         }
         return devList;
     }
