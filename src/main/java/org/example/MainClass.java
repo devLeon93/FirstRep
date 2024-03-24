@@ -13,8 +13,10 @@ public class MainClass {
         developerList.add(new Developer("Leonid","Barsucovschi",14000L));
         developerList.add(new Developer("Iurii","Busilo",12000L));
         developerList.add(new Developer("Serghei","Cotiujinschii",24000L));
-        List<Developer> newList = getDevelopersLastname(developerList);
-        System.out.println(" Result from getDevelopersLastname() -  " + newList);
+        List<Developer> developersLastname = getDevelopersLastname(developerList);
+        List<Developer> developersFirstname = getDevelopersFirstName(developerList);
+        System.out.println(" Result from getDevelopersLastname() -  " + developersLastname);
+        System.out.println(" Result from getDevelopersLastname() -  " + developersFirstname);
     }
 
     public static List<Developer> getDevelopersLastname(List<Developer> devList){
@@ -30,4 +32,7 @@ public class MainClass {
         }
         return devList;
     }
+
+
+
 }
